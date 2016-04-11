@@ -7,7 +7,6 @@
 //
 
 #import "RCKeySelectView.h"
-#import "AppDelegate.h"
 #import "RCMacro.h"
 
 @interface RCKeySelectView ()<UITableViewDataSource,UITableViewDelegate>
@@ -82,8 +81,10 @@
     [_array removeAllObjects];
     [_array addObjectsFromArray:array];
     [_listView reloadData];
+
+
     _listView.frame  = CGRectMake(0, 40, SCREEN_WIDTH, _viewHeight-40);
-    [SHARED_APP.window addSubview:self];
+    [[UIApplication sharedApplication].delegate.window addSubview:self];
     _tableHeader.text = title;
     [UIView animateWithDuration:0.3 delay:0.1 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         _contentView.frame = CGRectMake(0, SCREEN_HEIGHT-_viewHeight, SCREEN_WIDTH, _viewHeight);
