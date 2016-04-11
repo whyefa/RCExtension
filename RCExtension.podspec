@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RCExtension"
-  s.version      = "0.0.5"
+  s.version      = "0.0.8"
   s.summary      = "Extension used in app Development"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/whyefa/RCExtension.git", :tag => "0.0.5" }
+  s.source       = { :git => "https://github.com/whyefa/RCExtension.git", :tag => "0.0.8" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,8 +92,8 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes", "RCExtension/RCExtension/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "RCExtension/RCExtension/*.h"
+  # s.exclude_files = "RCExtension/Exclude"
+  # s.public_header_files = "RCExtension/RCExtension/RCExtension/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
