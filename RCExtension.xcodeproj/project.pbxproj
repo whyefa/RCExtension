@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B14C4F51D06A24700C33D19 /* RCDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B14C4F21D06A24700C33D19 /* RCDownloadTool.m */; };
+		8B14C4F61D06A24700C33D19 /* RCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B14C4F41D06A24700C33D19 /* RCHttpClient.m */; };
 		8B1C75091CB3B96000894C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C75081CB3B96000894C06 /* main.m */; };
 		8B1C750C1CB3B96000894C06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C750B1CB3B96000894C06 /* AppDelegate.m */; };
 		8B1C750F1CB3B96000894C06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C750E1CB3B96000894C06 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B14C4F11D06A24700C33D19 /* RCDownloadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDownloadTool.h; sourceTree = "<group>"; };
+		8B14C4F21D06A24700C33D19 /* RCDownloadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDownloadTool.m; sourceTree = "<group>"; };
+		8B14C4F31D06A24700C33D19 /* RCHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCHttpClient.h; sourceTree = "<group>"; };
+		8B14C4F41D06A24700C33D19 /* RCHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCHttpClient.m; sourceTree = "<group>"; };
 		8B1C75041CB3B96000894C06 /* RCExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1C75081CB3B96000894C06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B1C750A1CB3B96000894C06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +123,10 @@
 		8B1C751E1CB3B96700894C06 /* RCExtension */ = {
 			isa = PBXGroup;
 			children = (
+				8B14C4F11D06A24700C33D19 /* RCDownloadTool.h */,
+				8B14C4F21D06A24700C33D19 /* RCDownloadTool.m */,
+				8B14C4F31D06A24700C33D19 /* RCHttpClient.h */,
+				8B14C4F41D06A24700C33D19 /* RCHttpClient.m */,
 				8B1C751F1CB3B96700894C06 /* NSDate+Utils.h */,
 				8B1C75201CB3B96700894C06 /* NSDate+Utils.m */,
 				8B1C75211CB3B96700894C06 /* NSString+AttributeSting.h */,
@@ -227,6 +237,8 @@
 				8B1C75091CB3B96000894C06 /* main.m in Sources */,
 				8B1C753D1CB3B96700894C06 /* RCKeySelectView.m in Sources */,
 				8B1C75391CB3B96700894C06 /* NSString+Helper.m in Sources */,
+				8B14C4F61D06A24700C33D19 /* RCHttpClient.m in Sources */,
+				8B14C4F51D06A24700C33D19 /* RCDownloadTool.m in Sources */,
 				8B1C753C1CB3B96700894C06 /* RCDateTimePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
