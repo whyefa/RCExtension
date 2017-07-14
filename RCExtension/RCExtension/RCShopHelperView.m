@@ -10,12 +10,8 @@
 
 
 @implementation  IB_DESIGNABLE RCShopHelperView
-- (void)awakeFromNib {
-    if ([self initWithFrame:self.frame]) {
-    }
-}
-- (id) initWithFrame:(CGRect)frame {
 
+- (id) initWithFrame:(CGRect)frame {
     CGRect rect = CGRectMake(CGRectGetMinX(frame), CGRectGetMinY(frame), ((CGRectGetWidth(frame) > 130)?CGRectGetWidth(frame):130), ((CGRectGetHeight(frame) > 30)?CGRectGetHeight(frame):30));
     if (self = [super initWithFrame:rect]) {
         CGFloat btnWidth = CGRectGetHeight(rect)+10;
