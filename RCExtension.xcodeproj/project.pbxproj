@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		053A91651F18A03D00706B24 /* NSObject+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 053A91641F18A03D00706B24 /* NSObject+Class.m */; };
+		053A91681F18A38600706B24 /* NSString+Naming.m in Sources */ = {isa = PBXBuildFile; fileRef = 053A91671F18A38600706B24 /* NSString+Naming.m */; };
 		8B14C4F51D06A24700C33D19 /* RCDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B14C4F21D06A24700C33D19 /* RCDownloadTool.m */; };
 		8B14C4F61D06A24700C33D19 /* RCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B14C4F41D06A24700C33D19 /* RCHttpClient.m */; };
 		8B1C75091CB3B96000894C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C75081CB3B96000894C06 /* main.m */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		053A91631F18A03D00706B24 /* NSObject+Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Class.h"; sourceTree = "<group>"; };
 		053A91641F18A03D00706B24 /* NSObject+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Class.m"; sourceTree = "<group>"; };
+		053A91661F18A38600706B24 /* NSString+Naming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Naming.h"; sourceTree = "<group>"; };
+		053A91671F18A38600706B24 /* NSString+Naming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Naming.m"; sourceTree = "<group>"; };
 		8B14C4F11D06A24700C33D19 /* RCDownloadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDownloadTool.h; sourceTree = "<group>"; };
 		8B14C4F21D06A24700C33D19 /* RCDownloadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDownloadTool.m; sourceTree = "<group>"; };
 		8B14C4F31D06A24700C33D19 /* RCHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCHttpClient.h; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 				8B1C75351CB3B96700894C06 /* UIView+LabelHeight.m */,
 				053A91631F18A03D00706B24 /* NSObject+Class.h */,
 				053A91641F18A03D00706B24 /* NSObject+Class.m */,
+				053A91661F18A38600706B24 /* NSString+Naming.h */,
+				053A91671F18A38600706B24 /* NSString+Naming.m */,
 			);
 			path = RCExtension;
 			sourceTree = "<group>";
@@ -246,6 +251,7 @@
 				8B14C4F61D06A24700C33D19 /* RCHttpClient.m in Sources */,
 				8B14C4F51D06A24700C33D19 /* RCDownloadTool.m in Sources */,
 				8B1C753C1CB3B96700894C06 /* RCDateTimePicker.m in Sources */,
+				053A91681F18A38600706B24 /* NSString+Naming.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

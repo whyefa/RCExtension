@@ -18,7 +18,7 @@
 #endif
 
 /*******  Plist 单例  ********/
-#define Plist_Handler  [NSUserDefaults standardUserDefaults]
+#define UserDefaults  [NSUserDefaults standardUserDefaults]
 
 
 /*******  屏幕尺寸   ********/
