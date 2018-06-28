@@ -9,46 +9,51 @@
 #ifndef RCMacro_h
 #define RCMacro_h
 
-
-/*******  打印   ********/
+/**  log   */
 #ifdef DEBUG
-#    define DLog(...) NSLog(__VA_ARGS__)
+
+#define RLog(FORMAT, ...) fprintf(stderr,"LINE:\t%d\t %s\n %s\n\n", __LINE__,__FUNCTION__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+
 #else
-#    define DLog(...)
+
+#define RLog(...)
+
 #endif
 
-/*******  Plist 单例  ********/
+/**  Plist   */
 #define UserDefaults  [NSUserDefaults standardUserDefaults]
 
+/**    APP       */
+#define __kBundleId__ [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"]
 
-/*******  屏幕尺寸   ********/
-#define SCREEN_BOUNDS  [UIScreen mainScreen].bounds
-    // 屏幕宽度
-#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
-    // 屏幕高度
-#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
-    // 系统版本
-#define SYSTEM_VERSION  [UIDevice currentDevice].systemVersion.floatValue
+#define __kVersion__  [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
 
+/**  screen   */
+#define SCREEN_BOUNDS_RC  [UIScreen mainScreen].bounds
+#define SCREEN_WIDTH_RC   [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT_RC  [UIScreen mainScreen].bounds.size.height
 
-/*******  颜色   ********/
+/** color  */
 #define RCColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
 
-/*******  字体   ********/
-    // 标题字体
-#define kTitleFont  [UIFont boldSystemFontOfSize:20]
-    //  快速常规体
-#define kFont(fontSize) [UIFont systemFontOfSize:fontSize]
-    //  快速粗体
-#define kBoldFont(fontSize) [UIFont boldSystemFontOfSize:fontSize]
+#define RandomColor [UIColor colorWithRed:(arc4random()%255)/255.0 green:(arc4random()%255)/255.0 blue:(arc4random()%255)/255.0 alpha:1]
 
+#define ColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define ColorFromRGBA(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
 
-/***** 机型 *****/
-    // 4s 以下屏幕
-#define k4SPhone (kScreenHeight <= 480)
-    // 5/5s 屏幕
-#define k568Phone (kScreenHeight > 480 && kScreenHeight <= 568)
-    // 6及以上屏幕
-#define k6Phone (kScreenHeight > 568)
+/**  font   */
+#define kRCFont(fontSize) [UIFont systemFontOfSize:fontSize]
+
+#define kRCBoldFont(fontSize) [UIFont boldSystemFontOfSize:fontSize]
+
+/** device */
+
+#define k4InchPhone (SCREEN_HEIGHT_RC <= 480)
+
+#define k47InchPhone (SCREEN_HEIGHT_RC == 667)
+
+#define k55InchPhone (SCREEN_HEIGHT_RC == 736)
+
+#define kXPhone (SCREEN_HEIGHT_RC == 812)
 
 #endif /* RCMacro_h */

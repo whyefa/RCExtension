@@ -23,7 +23,7 @@
 
 @property (nonatomic, weak) id<RCDatePickerViewDelegate>delegate;
 
-- (void)showFromView:(UIView *)view;
+- (void)show;
 
 @end
 

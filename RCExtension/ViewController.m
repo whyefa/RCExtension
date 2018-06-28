@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "RCExtension/NSString+Extension/NSString+RCExtension.h"
+#import "RCExtension/NSObject+Extension/NSObject+Extension.h"
+#import "RCExtension/RCKit/RCDatePickerView.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -16,12 +21,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString * name = @"用户名";
+    self.label.backgroundColor = UIColor.cyanColor;
+    NSAttributedString *aStr = [name attachmentStringWithImage:@"snow" attachmentBounds:CGRectMake(5, 2, 8, 8)];
+    self.label.attributedText = aStr;
+    RCDatePickerView * r = [[RCDatePickerView alloc] init];
+    [r show];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

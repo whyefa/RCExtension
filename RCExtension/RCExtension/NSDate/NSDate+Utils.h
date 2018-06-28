@@ -54,13 +54,13 @@
 + (NSString *)timestampFormatStringSubSeconds;
 
 #pragma mark - Date adjust
-- (NSDate *) dateByAddingDays: (NSInteger) dDays;
+- (NSDate *) dateByAddingDays:(NSInteger) dDays;
 - (NSDate *) dateBySubtractingDays: (NSInteger) dDays;
 
 #pragma mark - Relative dates from the date
 + (NSDate *) dateTomorrow;
 + (NSDate *) dateYesterday;
-+ (NSDate *) dateWithDaysFromNow: (NSInteger) days;
++ (NSDate *) dateWithDaysFromNow:(NSInteger) days;
 + (NSDate *) dateWithDaysBeforeNow: (NSInteger) days;
 + (NSDate *) dateWithHoursFromNow: (NSInteger) dHours;
 + (NSDate *) dateWithHoursBeforeNow: (NSInteger) dHours;

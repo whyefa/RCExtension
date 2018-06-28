@@ -11,40 +11,33 @@
 
 @implementation NSString (Helper)
 
-- (NSString *)trimString
-{
+- (NSString *)trimString {
     // 截断字符串中的所有空白字符（空格,\t,\n,\r）
     return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
-- (NSString *)appendToDocumentDir
-{
+- (NSString *)appendToDocumentDir {
     NSString *docDir = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
     
     return [docDir stringByAppendingPathComponent:self];
 }
 
-- (NSURL *)appendToDocumentURL
-{
+- (NSURL *)appendToDocumentURL {
     return [NSURL fileURLWithPath:[self appendToDocumentDir]];
 }
 
-- (NSString *)base64EncodedString
-{
+- (NSString *)base64EncodedStrin {
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
     
     return [data base64EncodedStringWithOptions:0];
 }
 
-- (NSString *)base64DecodeString
-{
+- (NSString *)base64DecodeStrin {
     NSData *data = [[NSData alloc] initWithBase64EncodedString:self options:0];
-    
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 
-- (NSString *)appendDateTime
-{
+- (NSString *)appendDateTime {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     formatter.dateFormat = @"yyyyMMddHHmmss";
     NSString *str = [formatter stringFromDate:[NSDate date]];
@@ -53,8 +46,7 @@
 }
 
 
-- (NSString *)MD5Hash
-{
+- (NSString *)MD5Hash {
 	const char *cStr = [self UTF8String];
 	unsigned char result[16];
 	CC_MD5(cStr, (int)self.length, result);

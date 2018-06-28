@@ -1,14 +1,14 @@
 //
-//  NSString+Naming.m
+//  NSString+NameRule.m
 //  RCExtension
 //
-//  Created by Wangyefa on 2017/7/14.
-//  Copyright © 2017年 rc.com.ltd. All rights reserved.
+//  Created by dow-np-162 on 2018/6/28.
+//  Copyright © 2018年 rc.com.ltd. All rights reserved.
 //
 
-#import "NSString+Naming.h"
+#import "NSString+NameRule.h"
 
-@implementation NSString (Naming)
+@implementation NSString (NameRule)
 
 NSString* convertToCamelCase(NSString *name) {
     NSMutableString *str = [NSMutableString stringWithString:name];

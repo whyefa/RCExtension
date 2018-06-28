@@ -11,7 +11,7 @@
 @interface NSString (Helper)
 
 /**
- *  截断收尾空白字符
+ *  截断首尾空白字符
  *
  *  @return 截断结果
  */
