@@ -31,11 +31,50 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWa-Sv-vbG">
+                                <rect key="frame" x="66" y="199" width="243" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="H8B-6u-PRO"/>
+                                </constraints>
+                                <state key="normal" title="Default"/>
+                                <connections>
+                                    <action selector="popMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QcS-Bt-IUI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mck-Lf-jvK">
+                                <rect key="frame" x="66" y="269" width="243" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Vex-J5-GE6"/>
+                                </constraints>
+                                <state key="normal" title="Shadow"/>
+                                <connections>
+                                    <action selector="shadowMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HlE-gM-Uoh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQ2-GV-Occ">
+                                <rect key="frame" x="66" y="339" width="243" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Kaz-c6-qpm"/>
+                                </constraints>
+                                <state key="normal" title="Boarder"/>
+                                <connections>
+                                    <action selector="boarderMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NWP-Tx-91i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="jWa-Sv-vbG" firstAttribute="top" secondItem="SuI-bR-0fU" secondAttribute="bottom" constant="30" id="21v-Nd-JJt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jWa-Sv-vbG" secondAttribute="trailing" constant="50" id="5oy-JW-Gra"/>
+                            <constraint firstItem="Mck-Lf-jvK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="7y4-Cv-b8u"/>
                             <constraint firstItem="SuI-bR-0fU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="8UX-nR-KH7"/>
+                            <constraint firstItem="jWa-Sv-vbG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="Pw7-wT-ao5"/>
+                            <constraint firstItem="Mck-Lf-jvK" firstAttribute="top" secondItem="jWa-Sv-vbG" secondAttribute="bottom" constant="30" id="SXI-TQ-TF4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mck-Lf-jvK" secondAttribute="trailing" constant="50" id="dO7-1W-vrX"/>
+                            <constraint firstItem="XQ2-GV-Occ" firstAttribute="top" secondItem="Mck-Lf-jvK" secondAttribute="bottom" constant="30" id="m38-P5-2zv"/>
+                            <constraint firstItem="XQ2-GV-Occ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="sgU-2i-xg0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="SuI-bR-0fU" secondAttribute="trailing" constant="50" id="tAV-e9-VhX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XQ2-GV-Occ" secondAttribute="trailing" constant="50" id="v7n-n8-NVc"/>
                             <constraint firstItem="SuI-bR-0fU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="xwr-d0-5iw"/>
                         </constraints>
                     </view>
@@ -46,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055.2" y="118.29085457271366"/>
+            <point key="canvasLocation" x="1153" y="-585"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2qr-TE-JsF">
