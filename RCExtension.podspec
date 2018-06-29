@@ -21,8 +21,7 @@
   s.source       = { :git => "https://github.com/whyefa/RCExtension.git", :tag => "2.0.0" }
 
    #s.source_files  = "Classes", "RCExtension/RCExtension/*.{h,m}"
-     s.source_files  = "Classes", "RCExtension/RCExtension/*"
-
+ 
   s.requires_arc = true
 
 
