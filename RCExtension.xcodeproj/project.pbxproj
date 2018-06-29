@@ -12,7 +12,6 @@
 		5C97AD6620E6118100022231 /* NSString+Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5320E6118000022231 /* NSString+Attributed.m */; };
 		5C97AD6720E6118100022231 /* NSString+NameRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5A20E6118000022231 /* NSString+NameRule.m */; };
 		5C97AD6820E6118100022231 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5B20E6118000022231 /* NSString+Helper.m */; };
-		5C97AD6920E6118100022231 /* NSString+AttributeSting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5F20E6118100022231 /* NSString+AttributeSting.m */; };
 		5C97AD6A20E6118100022231 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD6120E6118100022231 /* NSDate+Utils.m */; };
 		5C97AD6B20E6118100022231 /* RCShopHelperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD6220E6118100022231 /* RCShopHelperView.m */; };
 		5C97AD6C20E6118100022231 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD6320E6118100022231 /* UIView+Frame.m */; };
@@ -32,18 +31,13 @@
 		5C97AD5120E6118000022231 /* RCDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDatePickerView.m; sourceTree = "<group>"; };
 		5C97AD5220E6118000022231 /* NSObject+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Class.m"; sourceTree = "<group>"; };
 		5C97AD5320E6118000022231 /* NSString+Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Attributed.m"; sourceTree = "<group>"; };
-		5C97AD5420E6118000022231 /* RCExtension-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCExtension-Bridging-Header.h"; sourceTree = "<group>"; };
-		5C97AD5520E6118000022231 /* NSString+RCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RCExtension.h"; sourceTree = "<group>"; };
 		5C97AD5620E6118000022231 /* NSObject+Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Class.h"; sourceTree = "<group>"; };
 		5C97AD5720E6118000022231 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
 		5C97AD5820E6118000022231 /* RCShopHelperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCShopHelperView.h; sourceTree = "<group>"; };
 		5C97AD5920E6118000022231 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		5C97AD5A20E6118000022231 /* NSString+NameRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NameRule.m"; sourceTree = "<group>"; };
 		5C97AD5B20E6118000022231 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
-		5C97AD5C20E6118000022231 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
 		5C97AD5D20E6118000022231 /* RCDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDatePickerView.h; sourceTree = "<group>"; };
-		5C97AD5E20E6118100022231 /* NSString+AttributeSting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributeSting.h"; sourceTree = "<group>"; };
-		5C97AD5F20E6118100022231 /* NSString+AttributeSting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributeSting.m"; sourceTree = "<group>"; };
 		5C97AD6020E6118100022231 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
 		5C97AD6120E6118100022231 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
 		5C97AD6220E6118100022231 /* RCShopHelperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCShopHelperView.m; sourceTree = "<group>"; };
@@ -119,19 +113,14 @@
 				5C97AD6120E6118100022231 /* NSDate+Utils.m */,
 				5C97AD5620E6118000022231 /* NSObject+Class.h */,
 				5C97AD5220E6118000022231 /* NSObject+Class.m */,
-				5C97AD5C20E6118000022231 /* NSObject+Extension.h */,
 				5C97AD5020E6118000022231 /* NSString+Attributed.h */,
 				5C97AD5320E6118000022231 /* NSString+Attributed.m */,
-				5C97AD5E20E6118100022231 /* NSString+AttributeSting.h */,
-				5C97AD5F20E6118100022231 /* NSString+AttributeSting.m */,
 				5C97AD6020E6118100022231 /* NSString+Helper.h */,
 				5C97AD5B20E6118000022231 /* NSString+Helper.m */,
 				5C97AD4F20E6118000022231 /* NSString+NameRule.h */,
 				5C97AD5A20E6118000022231 /* NSString+NameRule.m */,
-				5C97AD5520E6118000022231 /* NSString+RCExtension.h */,
 				5C97AD5D20E6118000022231 /* RCDatePickerView.h */,
 				5C97AD5120E6118000022231 /* RCDatePickerView.m */,
-				5C97AD5420E6118000022231 /* RCExtension-Bridging-Header.h */,
 				5C97AD5820E6118000022231 /* RCShopHelperView.h */,
 				5C97AD6220E6118100022231 /* RCShopHelperView.m */,
 				5C97AD5920E6118000022231 /* UIView+Frame.h */,
@@ -221,7 +210,6 @@
 				5C97AD6B20E6118100022231 /* RCShopHelperView.m in Sources */,
 				8B1C750C1CB3B96000894C06 /* AppDelegate.m in Sources */,
 				5C97AD6A20E6118100022231 /* NSDate+Utils.m in Sources */,
-				5C97AD6920E6118100022231 /* NSString+AttributeSting.m in Sources */,
 				8B1C75091CB3B96000894C06 /* main.m in Sources */,
 				5C97AD6520E6118100022231 /* NSObject+Class.m in Sources */,
 				5C97AD6620E6118100022231 /* NSString+Attributed.m in Sources */,

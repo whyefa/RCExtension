@@ -6,7 +6,12 @@
 //  Copyright © 2018年 rc.com.ltd. All rights reserved.
 //
 
-#import "NSObject+Extension.h"
-#import "NSString+Extension.h"
+#import "NSObject+Class.h"
+#import "NSString+Helper.h"
+#import "NSString+NameRule.h"
+#import "NSString+Attributed.h"
 #import "NSDate+Utils.h"
+#import "RCDatePickerView.h"
+#import "RCShopHelperView.h"
 #import "RCMacro.h"
+
