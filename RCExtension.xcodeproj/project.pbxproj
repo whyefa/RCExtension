@@ -15,6 +15,7 @@
 		5C97AD6A20E6118100022231 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD6120E6118100022231 /* NSDate+Utils.m */; };
 		5C97AD6B20E6118100022231 /* RCShopHelperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD6220E6118100022231 /* RCShopHelperView.m */; };
 		5C97AD6C20E6118100022231 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD6320E6118100022231 /* UIView+Frame.m */; };
+		5C97AD6E20E6144400022231 /* RCExtension.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5C97AD6D20E6144400022231 /* RCExtension.podspec */; };
 		8B1C75091CB3B96000894C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C75081CB3B96000894C06 /* main.m */; };
 		8B1C750C1CB3B96000894C06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C750B1CB3B96000894C06 /* AppDelegate.m */; };
 		8B1C750F1CB3B96000894C06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C750E1CB3B96000894C06 /* ViewController.m */; };
@@ -42,6 +43,7 @@
 		5C97AD6120E6118100022231 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
 		5C97AD6220E6118100022231 /* RCShopHelperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCShopHelperView.m; sourceTree = "<group>"; };
 		5C97AD6320E6118100022231 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		5C97AD6D20E6144400022231 /* RCExtension.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RCExtension.podspec; sourceTree = SOURCE_ROOT; };
 		8B1C75041CB3B96000894C06 /* RCExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1C75081CB3B96000894C06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B1C750A1CB3B96000894C06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		8B1C75061CB3B96000894C06 /* RCExtension */ = {
 			isa = PBXGroup;
 			children = (
+				5C97AD6D20E6144400022231 /* RCExtension.podspec */,
 				8B1C751E1CB3B96700894C06 /* RCExtension */,
 				8B1C750A1CB3B96000894C06 /* AppDelegate.h */,
 				8B1C750B1CB3B96000894C06 /* AppDelegate.m */,
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B1C75171CB3B96000894C06 /* LaunchScreen.storyboard in Resources */,
+				5C97AD6E20E6144400022231 /* RCExtension.podspec in Resources */,
 				8B1C75141CB3B96000894C06 /* Assets.xcassets in Resources */,
 				8B1C75121CB3B96000894C06 /* Main.storyboard in Resources */,
 			);
