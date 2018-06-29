@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C81BEF720E4792D0023406F /* NSObject+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81BED420E4792D0023406F /* NSObject+Class.m */; };
-		5C81BEF820E4792D0023406F /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81BED720E4792D0023406F /* NSDate+Utils.m */; };
-		5C81BEFB20E4792D0023406F /* RCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81BEDE20E4792D0023406F /* RCDatePickerView.m */; };
-		5C81BEFC20E4792D0023406F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81BEE120E4792D0023406F /* UIView+Frame.m */; };
-		5C81BEFE20E4792D0023406F /* RCShopHelperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81BEE520E4792D0023406F /* RCShopHelperView.m */; };
-		5C81BF0120E4792D0023406F /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81BEEC20E4792D0023406F /* NSString+Helper.m */; };
-		5C81BF0A20E47AC70023406F /* NSString+Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81BF0920E47AC70023406F /* NSString+Attributed.m */; };
-		5C81BF0D20E481C00023406F /* NSString+NameRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C81BF0C20E481C00023406F /* NSString+NameRule.m */; };
+		5C97AD6420E6118100022231 /* RCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5120E6118000022231 /* RCDatePickerView.m */; };
+		5C97AD6520E6118100022231 /* NSObject+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5220E6118000022231 /* NSObject+Class.m */; };
+		5C97AD6620E6118100022231 /* NSString+Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5320E6118000022231 /* NSString+Attributed.m */; };
+		5C97AD6720E6118100022231 /* NSString+NameRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5A20E6118000022231 /* NSString+NameRule.m */; };
+		5C97AD6820E6118100022231 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5B20E6118000022231 /* NSString+Helper.m */; };
+		5C97AD6920E6118100022231 /* NSString+AttributeSting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD5F20E6118100022231 /* NSString+AttributeSting.m */; };
+		5C97AD6A20E6118100022231 /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD6120E6118100022231 /* NSDate+Utils.m */; };
+		5C97AD6B20E6118100022231 /* RCShopHelperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD6220E6118100022231 /* RCShopHelperView.m */; };
+		5C97AD6C20E6118100022231 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C97AD6320E6118100022231 /* UIView+Frame.m */; };
 		8B1C75091CB3B96000894C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C75081CB3B96000894C06 /* main.m */; };
 		8B1C750C1CB3B96000894C06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C750B1CB3B96000894C06 /* AppDelegate.m */; };
 		8B1C750F1CB3B96000894C06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C750E1CB3B96000894C06 /* ViewController.m */; };
@@ -24,27 +25,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C1AF52420E4B23700E85893 /* RCExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCExtension-Bridging-Header.h"; sourceTree = "<group>"; };
-		5C81BED320E4792D0023406F /* NSObject+Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Class.h"; sourceTree = "<group>"; };
-		5C81BED420E4792D0023406F /* NSObject+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Class.m"; sourceTree = "<group>"; };
-		5C81BED620E4792D0023406F /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
-		5C81BED720E4792D0023406F /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
-		5C81BEDE20E4792D0023406F /* RCDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDatePickerView.m; sourceTree = "<group>"; };
-		5C81BEDF20E4792D0023406F /* RCShopHelperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCShopHelperView.h; sourceTree = "<group>"; };
-		5C81BEE120E4792D0023406F /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		5C81BEE520E4792D0023406F /* RCShopHelperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCShopHelperView.m; sourceTree = "<group>"; };
-		5C81BEE620E4792D0023406F /* RCDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDatePickerView.h; sourceTree = "<group>"; };
-		5C81BEE920E4792D0023406F /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		5C81BEEA20E4792D0023406F /* RCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMacro.h; sourceTree = "<group>"; };
-		5C81BEEC20E4792D0023406F /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
-		5C81BEF220E4792D0023406F /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
-		5C81BF0620E479CB0023406F /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
-		5C81BF0720E47A020023406F /* NSString+RCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RCExtension.h"; sourceTree = "<group>"; };
-		5C81BF0820E47AC70023406F /* NSString+Attributed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Attributed.h"; sourceTree = "<group>"; };
-		5C81BF0920E47AC70023406F /* NSString+Attributed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Attributed.m"; sourceTree = "<group>"; };
-		5C81BF0B20E481C00023406F /* NSString+NameRule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NameRule.h"; sourceTree = "<group>"; };
-		5C81BF0C20E481C00023406F /* NSString+NameRule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NameRule.m"; sourceTree = "<group>"; };
 		5C81BF0E20E485BD0023406F /* RCExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCExtension.h; sourceTree = "<group>"; };
+		5C97AD4F20E6118000022231 /* NSString+NameRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NameRule.h"; sourceTree = "<group>"; };
+		5C97AD5020E6118000022231 /* NSString+Attributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Attributed.h"; sourceTree = "<group>"; };
+		5C97AD5120E6118000022231 /* RCDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDatePickerView.m; sourceTree = "<group>"; };
+		5C97AD5220E6118000022231 /* NSObject+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Class.m"; sourceTree = "<group>"; };
+		5C97AD5320E6118000022231 /* NSString+Attributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Attributed.m"; sourceTree = "<group>"; };
+		5C97AD5420E6118000022231 /* RCExtension-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C97AD5520E6118000022231 /* NSString+RCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RCExtension.h"; sourceTree = "<group>"; };
+		5C97AD5620E6118000022231 /* NSObject+Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Class.h"; sourceTree = "<group>"; };
+		5C97AD5720E6118000022231 /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		5C97AD5820E6118000022231 /* RCShopHelperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCShopHelperView.h; sourceTree = "<group>"; };
+		5C97AD5920E6118000022231 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		5C97AD5A20E6118000022231 /* NSString+NameRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NameRule.m"; sourceTree = "<group>"; };
+		5C97AD5B20E6118000022231 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		5C97AD5C20E6118000022231 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		5C97AD5D20E6118000022231 /* RCDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDatePickerView.h; sourceTree = "<group>"; };
+		5C97AD5E20E6118100022231 /* NSString+AttributeSting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributeSting.h"; sourceTree = "<group>"; };
+		5C97AD5F20E6118100022231 /* NSString+AttributeSting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributeSting.m"; sourceTree = "<group>"; };
+		5C97AD6020E6118100022231 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		5C97AD6120E6118100022231 /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		5C97AD6220E6118100022231 /* RCShopHelperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCShopHelperView.m; sourceTree = "<group>"; };
+		5C97AD6320E6118100022231 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		8B1C75041CB3B96000894C06 /* RCExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1C75081CB3B96000894C06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B1C750A1CB3B96000894C06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,53 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C81BED220E4792D0023406F /* NSObject+Extension */ = {
-			isa = PBXGroup;
-			children = (
-				5C81BED320E4792D0023406F /* NSObject+Class.h */,
-				5C81BED420E4792D0023406F /* NSObject+Class.m */,
-				5C81BF0620E479CB0023406F /* NSObject+Extension.h */,
-			);
-			path = "NSObject+Extension";
-			sourceTree = "<group>";
-		};
-		5C81BED520E4792D0023406F /* NSDate */ = {
-			isa = PBXGroup;
-			children = (
-				5C81BED620E4792D0023406F /* NSDate+Utils.h */,
-				5C81BED720E4792D0023406F /* NSDate+Utils.m */,
-			);
-			path = NSDate;
-			sourceTree = "<group>";
-		};
-		5C81BEDD20E4792D0023406F /* RCKit */ = {
-			isa = PBXGroup;
-			children = (
-				5C81BEE620E4792D0023406F /* RCDatePickerView.h */,
-				5C81BEDE20E4792D0023406F /* RCDatePickerView.m */,
-				5C81BEDF20E4792D0023406F /* RCShopHelperView.h */,
-				5C81BEE520E4792D0023406F /* RCShopHelperView.m */,
-				5C81BEE920E4792D0023406F /* UIView+Frame.h */,
-				5C81BEE120E4792D0023406F /* UIView+Frame.m */,
-				5C1AF52420E4B23700E85893 /* RCExtension-Bridging-Header.h */,
-			);
-			path = RCKit;
-			sourceTree = "<group>";
-		};
-		5C81BEEB20E4792D0023406F /* NSString+Extension */ = {
-			isa = PBXGroup;
-			children = (
-				5C81BF0720E47A020023406F /* NSString+RCExtension.h */,
-				5C81BF0820E47AC70023406F /* NSString+Attributed.h */,
-				5C81BF0920E47AC70023406F /* NSString+Attributed.m */,
-				5C81BEF220E4792D0023406F /* NSString+Helper.h */,
-				5C81BEEC20E4792D0023406F /* NSString+Helper.m */,
-				5C81BF0B20E481C00023406F /* NSString+NameRule.h */,
-				5C81BF0C20E481C00023406F /* NSString+NameRule.m */,
-			);
-			path = "NSString+Extension";
-			sourceTree = "<group>";
-		};
 		8B1C74FB1CB3B96000894C06 = {
 			isa = PBXGroup;
 			children = (
@@ -159,10 +115,27 @@
 		8B1C751E1CB3B96700894C06 /* RCExtension */ = {
 			isa = PBXGroup;
 			children = (
-				5C81BED520E4792D0023406F /* NSDate */,
-				5C81BED220E4792D0023406F /* NSObject+Extension */,
-				5C81BEEB20E4792D0023406F /* NSString+Extension */,
-				5C81BEDD20E4792D0023406F /* RCKit */,
+				5C97AD5720E6118000022231 /* NSDate+Utils.h */,
+				5C97AD6120E6118100022231 /* NSDate+Utils.m */,
+				5C97AD5620E6118000022231 /* NSObject+Class.h */,
+				5C97AD5220E6118000022231 /* NSObject+Class.m */,
+				5C97AD5C20E6118000022231 /* NSObject+Extension.h */,
+				5C97AD5020E6118000022231 /* NSString+Attributed.h */,
+				5C97AD5320E6118000022231 /* NSString+Attributed.m */,
+				5C97AD5E20E6118100022231 /* NSString+AttributeSting.h */,
+				5C97AD5F20E6118100022231 /* NSString+AttributeSting.m */,
+				5C97AD6020E6118100022231 /* NSString+Helper.h */,
+				5C97AD5B20E6118000022231 /* NSString+Helper.m */,
+				5C97AD4F20E6118000022231 /* NSString+NameRule.h */,
+				5C97AD5A20E6118000022231 /* NSString+NameRule.m */,
+				5C97AD5520E6118000022231 /* NSString+RCExtension.h */,
+				5C97AD5D20E6118000022231 /* RCDatePickerView.h */,
+				5C97AD5120E6118000022231 /* RCDatePickerView.m */,
+				5C97AD5420E6118000022231 /* RCExtension-Bridging-Header.h */,
+				5C97AD5820E6118000022231 /* RCShopHelperView.h */,
+				5C97AD6220E6118100022231 /* RCShopHelperView.m */,
+				5C97AD5920E6118000022231 /* UIView+Frame.h */,
+				5C97AD6320E6118100022231 /* UIView+Frame.m */,
 				5C81BEEA20E4792D0023406F /* RCMacro.h */,
 				5C81BF0E20E485BD0023406F /* RCExtension.h */,
 			);
@@ -241,17 +214,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C81BEF720E4792D0023406F /* NSObject+Class.m in Sources */,
-				5C81BEFB20E4792D0023406F /* RCDatePickerView.m in Sources */,
+				5C97AD6C20E6118100022231 /* UIView+Frame.m in Sources */,
 				8B1C750F1CB3B96000894C06 /* ViewController.m in Sources */,
-				5C81BEFE20E4792D0023406F /* RCShopHelperView.m in Sources */,
-				5C81BEFC20E4792D0023406F /* UIView+Frame.m in Sources */,
-				5C81BF0D20E481C00023406F /* NSString+NameRule.m in Sources */,
-				5C81BF0A20E47AC70023406F /* NSString+Attributed.m in Sources */,
+				5C97AD6720E6118100022231 /* NSString+NameRule.m in Sources */,
+				5C97AD6420E6118100022231 /* RCDatePickerView.m in Sources */,
+				5C97AD6B20E6118100022231 /* RCShopHelperView.m in Sources */,
 				8B1C750C1CB3B96000894C06 /* AppDelegate.m in Sources */,
+				5C97AD6A20E6118100022231 /* NSDate+Utils.m in Sources */,
+				5C97AD6920E6118100022231 /* NSString+AttributeSting.m in Sources */,
 				8B1C75091CB3B96000894C06 /* main.m in Sources */,
-				5C81BEF820E4792D0023406F /* NSDate+Utils.m in Sources */,
-				5C81BF0120E4792D0023406F /* NSString+Helper.m in Sources */,
+				5C97AD6520E6118100022231 /* NSObject+Class.m in Sources */,
+				5C97AD6620E6118100022231 /* NSString+Attributed.m in Sources */,
+				5C97AD6820E6118100022231 /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

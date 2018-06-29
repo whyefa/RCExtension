@@ -1,6 +1,5 @@
 
 
-Pod::Spec.new do |s|
 
   s.name         = "RCExtension"
   s.version      = "2.0.0"
@@ -19,7 +18,10 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/whyefa/RCExtension.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/whyefa/RCExtension.git", :tag => "2.0.0" }
+
+   #s.source_files  = "Classes", "RCExtension/RCExtension/*.{h,m}"
+     s.source_files  = "Classes", "RCExtension/RCExtension/*"
 
   s.requires_arc = true
 
